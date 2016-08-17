@@ -10,5 +10,5 @@ chapter3Facts = [
     "The triple quote style let's us use line breaks inside our strings. That will cause an end of line error with the other two quote styles.",
     "If you want to use the same character inside a string that is used to mark the start and end of that string then you have to escape the character used inside the string with a backslash character (\)",
     '''The triple quote syntax for strings let's us use single quotes (') and double quotes (") in our strings without having to escape them.''',
-    
+    # page 30
 ]
