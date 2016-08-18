@@ -109,3 +109,50 @@ del wizard_list[6]
 print(wizard_list)
 
 # List arithmetic, page 36
+# List concatenation
+list1 = [1, 2, 3, 4]
+list2 = ['I', 'tripped', 'over', 'and', 'hit', 'the', 'floor']
+print(list1 + list2)
+
+# Storing a concatenated list in a variable
+list1 = [1, 2, 3, 4]
+list2 = ['I', 'ate', 'chocolate', 'and', 'I', 'want', 'more']
+list3 = list1 + list2
+print(list3)
+
+# Repeating a list with multiplication
+list1 = [1, 2]
+print(list1 * 5)
+
+# tuples
+fibs = (0, 1, 1, 2, 3)
+print(fibs[3])
+
+# Tuples are immutable. This line would raise an error if we actually ran it.
+# fibs[0] = 4
+
+# Maps
+favorite_sports = {'Ralph Williams' : 'Football',
+    'Michael Tippett' : 'Basketball',
+    'Edward Elgar' : 'Baseball',
+    'Rebecca Clarke' : 'Netball',
+    'Ethel Smyth' : 'Badminton',
+    'Frank Bridge' : 'Rugby'
+    }
+# Print entire map
+print(favorite_sports)
+# Print a single item from the map
+print(favorite_sports['Rebecca Clarke'])
+
+# Delete an item from the map
+del favorite_sports['Ethel Smyth']
+print(favorite_sports)
+
+# Replace an item from the map
+favorite_sports['Ralph Williams'] = 'Ice Hockey'
+print(favorite_sports)
+
+# This isn't covered in the book but we can also add a new item to the map
+# using the same syntax as the replace example. Just use a brand new key.
+favorite_sports['Derek Pennycuff'] = 'Calvinball'
+print(favorite_sports)

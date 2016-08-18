@@ -12,7 +12,9 @@ chapter3Facts = [
     '''The triple quote syntax for strings let's us use single quotes (') and double quotes (") in our strings without having to escape them.''',
     "You can think of the terms String substituion, embedding values, and inserting values as interchangable.",
     "In string substitution, placeholders in a string are replaced with whatever values or variables are provided.",
-    "Multiple placeholders can be used with string substition provided the values to be substituted are provided in the order they should appear in the template string and wrapped in a pair of parenthesis.",
+    "Multiple placeholders can be used with string substition provided the values to be substituted are provided in the order they should appear in the template string and wrapped in a pair of parenthesis, aka a tuple.",
+    "Two or more strings can be joined together into a single string using the + operator. This is called string concatenation.",
+    "Strings can be repeated using the * operator. You can think of it a bit like multiplecation.",
     "The book doesn't use this term but a list is a basic data structure.",
     "A list stores many values (such as strings) in an ordered way.",
     "We can reference individual values in a list using its index number surrounded by square brackets [].",
@@ -23,5 +25,16 @@ chapter3Facts = [
     "Lists expose some functions that provide ways of interacting with them. We call a function 'on' a list using dot notation, which means we put a dot (or period) between the name of the list and the name of the function.",
     "The append() function adds an item to the end of a list.",
     "Values can be removed from a list using the del command. Del is short for 'delete.'",
-    
+    "Joining 2 or more lists together into a single list is called list concatenation. In Python this is done with the + operator.",
+    "Like strings, lists can be repeated using the * operator and a number.",
+    "Lists and strings both understand + (concatenation, which works a bit like addition) and * (repeating, which works a bit like multiplecation) but other 'math' operators like - (subtraction) and / (division) produce errors if used with strings or lists.",
+    "A tuple is much like a list. There are two big differences. Tuples are defined using a pair of parenthesis () rather than a pair of square brackets [] around the values. And tuples are immutable. This is another way of saying they cannot be changed once they are created.",
+    "Tuples may seem more limited and therefore less useful than lists. But sometimes it can be very important to store values you can count on not changing once we create them.",
+    "A map works a lot like a list. But there are two big differences. A map is defined using a pair of curly braces {} rather than a pair of square brackets [] around the contents. And rather than referencing the values inside a map using numbers each value is assigned a 'key', usually a string.",
+    "A map is also sometimes called a dictionary or dict for short. And if you think about it, you really could use a map to pair words (keys) up with their definitions (values).",
+    "A single value can be retrived from a map using its key.",
+    "Items can be removed from a map using the del command and referencing the specific item by its key.",
+    "The value assigned to a key in a map can be changed by referencing it by key name.",
+    "New items can be added to a map with the syntax map_name[new_key] = new_value",
+    "Maps cannot be joined together with the + operator or repeated with the * operator. Trying to do so will raise an error."
 ]
