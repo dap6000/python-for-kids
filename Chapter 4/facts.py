@@ -1,7 +1,14 @@
 chapter4Facts = [
     'Chapter 4 uses the turtle module to teach some basics in computer graphics.',
     'Drawing with the turtle isn\'t unique to Python. Lots of langauges can use it.',
-    'I can remember spending a day or two doing exercises drawing with a turtle in the shool\'s computer lab back in the 7th or maybe the 8th grade.',
+    'The turtle was introduced way back in 1966 in the Logo programming language.',
+    'Logo was designed to make learning to program easier.',
+    'Logo was developed by Wally Feurzig and Seymour Papert.',
+    'Some of the functions used to control the turtle may be familiar from working with Lego Mindstorm robots. The language Lego uses for those robots draws a lot of inspiration from the same Logo language that Python bases its turtle module on.',
+    'The name "Mindstorm" comes from a book Seymour Papert published way back in 1980: _Mindstorms: Children, Computers, and Powerful Ideas_',
+    'Wally Feurzig died in 2013 at the age of 85.',
+    'Seymour Papert died in 2016 at the age of 88.',
+    'I can remember spending a day or two doing exercises drawing with a turtle in the school\'s computer lab back in the 7th or maybe the 8th grade.',
     'The turtle features are stored in a module. Modules are one strategy Python uses to help make reusing code easier.',
     'Pixels are the individual square dots used by computer screens.',
     'The book says a pixel is the smallest graphical unit that we can reference. This is close enough to true. But there are some exceptions to this rule on systems with so called "high desnity" displays such as the newer iPhones.',
@@ -10,10 +17,11 @@ chapter4Facts = [
     'Functions that tell the turtle to rotate the diretion it is facing include left() and right().',
     'Functions that tell the turtle to rotate the diretion it is facing take a sinle number as a paramater. This number tells the turtle how far to rotate, measured in degrees.',
     'You can imagine the turtle drawing by dragging a pen behind it as it moves.',
-    'The turtle\'s pen an be in the up or down position.',
+    'The turtle\'s pen can be in the up or down position.',
     'The up() and down() functions change the position of turtle\'s pen.',
     'If the pen is currently down and we call the up() funtion then the position of the pen will change.',
     'If the pen is currently down and we call the down() function then nothing will happen, not even an error.',
     'Conditions such as the position of the turtle\'s pen are called "states" in computer science.',
-    'Reasoning through the states our code can be in is a powerful strategy for debugging. For example, if your turtle is moving but not drawing you may be extremely confused if you don\'t know the pen can be in the up "state." But if you know about the pen being in the up or down positions (aka "states") then this problem is both easy to spot and easy to fix.'
+    'Reasoning through the states our code can be in is a powerful strategy for debugging. For example, if your turtle is moving but not drawing you may be extremely confused if you don\'t know the pen can be in the up "state." But if you know about the pen being in the up or down positions (aka "states") then this problem is both easy to spot and easy to fix.',
+    'The book doesn\'t cover it but we can check the state of the pen using the isdown() function. Think of it like asking the turtle a question: "Is the pen down?" The turtle will answer our question with either a True or a False.'
 ]
